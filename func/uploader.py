@@ -18,11 +18,8 @@ async def upload_image(image_path):
     data = {'key': freeimageapi, 'action': 'upload', 'format': 'json'}
 
     response = requests.post(url, files=files, data=data)
-    print(response.json())
 
     if response.json()["status_code"] == 200:
-        print('1')
         return response.json()["image"]["url"]
     else:
-        print('2')
         return False
