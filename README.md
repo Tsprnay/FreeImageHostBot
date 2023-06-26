@@ -20,3 +20,15 @@ That is super easy to use! Just send your image to bot and it will upload it to 
 TOKEN=your_bot_token
 FreeImage_API=your_api_key
 ```
+
+## Do not want host it your self? Try replit!
+
+### <a href="https://replit.com/new/github/Tsprnay/FreeImageHostBot">Deploy to replit</a>
+
+#### What next after deployment?
+1. Go to secrets tab
+2. Add new secret called TOKEN and paste your bot token
+3. Add new secret called FreeImage_API and paste your freeimage.host api key
+4. Tap run button
+5. Enjoy!
+
